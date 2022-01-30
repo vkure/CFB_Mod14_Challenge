@@ -27,25 +27,29 @@ Install scikit-learn through command **pip install -U scikit-learn**
 
 The baseline SVC model was run with different training periods and some updated paramaters.  The starting test period was 3 months with SMAs of 4 and 100.  With these starting paramters, the average precision was 0.49.  Strategy returns were stronger than the actual returns.
 
-Starting Parameters
+Starting Parameters:
+
 ![Initial](Images/Version1.PNG)
 ![InitialCR](Images/Version1CF.PNG)
 
 With a 9 month training period, average precision went down to 0.45.  Strategy returns went down to average returns.
 
 9m test period:
+
 ![9M](Images/9MPlot.PNG)
 ![9MCR](Images/9MCR.PNG)
 
 With an 18 month training period average precision went up to .66, and returns went back to outperforming.
 
 18m test period:
+
 ![18M](Images/18MPlot.PNG)
 ![18MCR](Images/18MCR.PNG)
 
 Going back to a 3 month training period but with SMA windows of 30 and 150, average precision ended up at 0.55.  Howver, returns lost their outperformance.
 
 30/150 SMA:
+
 ![30&150](Images/30N150Plot.PNG)
 ![30&150CR](Images/30N150CR.PNG)
 
@@ -54,6 +58,7 @@ Overall, the best performance was from the original SVC model with a 18 month tr
 Random Forest was employed to vary the classifier.  Average precision did not change but returns were better.  Random Forest was not as good as the original SVC model with an 18 month training period.
 
 Random Forest:
+
 ![RF](Images/RFPlot.PNG)
 ![RFCR](Images/RFCR.PNG)
 
