@@ -59,7 +59,7 @@ Random Forest was then employed to vary the classifier.  Average precision did n
 
 Random Forest:
 
-![RF](Images/RFPlot.PNG)
+![RF](Images/RFChart.PNG)
 ![RFCR](Images/RFCR.PNG)
 
 Evaluation Report Conclusion:
