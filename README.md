@@ -53,16 +53,16 @@ Going back to a 3 month training period but with SMA windows of 30 and 150, aver
 ![30&150](Images/30N150Plot.PNG)
 ![30&150CR](Images/30N150CR.PNG)
 
-Overall, the best performance was from the original SVC model with a 18 month training period.
+Overall, the best performance from the original SVC model was with a 18 month training period.
 
-Random Forest was employed to vary the classifier.  Average precision did not change but returns were better.  Random Forest was not as good as the original SVC model with an 18 month training period.
+Random Forest was then employed to vary the classifier.  Average precision did not change but returns were better.  Random Forest was not as good as the SVC model with an 18 month training period.
 
 Random Forest:
 
 ![RF](Images/RFPlot.PNG)
 ![RFCR](Images/RFCR.PNG)
 
-Evaluation Report:
+Evaluation Report Conclusion:
 Within the SVC models, the version with the 18 month training period performed the best.  Random Forest classification did not seem to improve performance.  The best returns and performance were still with the 18m SVC.
 
 ![18M](Images/18MPlot.PNG)
